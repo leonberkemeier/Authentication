@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+    body{
+        background-color:#7fe1cf !important;
+            margin: 0px;
+    }
+    header {
+            text-shadow:1px 1px rgb(0, 0, 0);
+            font-size:20px;
+            font-family: 'Open Sans', sans-serif;
+            background-color:  	rgb(109,0,204);
+            display: flex;
+            padding-left: 0px;
+            box-shadow: 0px 5px 5px rgb(109,0,204);
+            color:rgb(241, 236, 236);
+            position: sticky;
+            top:0; left: 0; right:0;
+            z-index: 100;
+            text-align:center;
+            
+        }
+       
+        h1 {
+            text-align:center;
+            font-size:30px;
+        }
+        h2 {
+            text-align:center;
+        }
+        h3 {
+            text-align:center;
+            font-size:15px;
+        }
+
+        
+        .logout_button{
+            height: 100px;
+            width: 200px;
+            border-radius: 10%;
+            box-shadow: 2px 2px 2px rgb(black);
+            background-color:#7abecc;
+            
+            font-size:32px;
+            color:black;
+            
+            
+            border-top: 1px solid rgba(0,0,0,0.5);
+            border-left: 1px solid rgba(0,0,0,0.5);
+            border-right: 1px solid rgba(0,0,0,0.5);
+            border-bottom: 1px solid rgba(0,0,0,0.5);
+            right:16px;
+
+      
+        }
+       
+
+
+
+ 
+       </style>
+
+    
+</head>
+<body>
+    {% csrf_token %}
+    <header>
+        <h3 class ="header" style = "display : inline; width  :  100%" >You have been tricked</h3>
+        <br>
+        
+        
+        
+        
+    </header>
+        <h2 class ="one" style = " width  :  100%" >hier gibt es nämlich</h2>
+        <br>
+        <h1 class ="one" style = " width  :  100%" >GARNICHTS</h1>
+        <br>
+        <h2 class ="one" style = " width  :  100%" >! zusehen !</h2>
+        <br>
+        <h1 class ="one" style = "width  :  100%" >! du Birne !</h1>
+        <br>
+        <h3 class ="one" style = "width  :  100%" >you may now</h3>
+    
+    <button class = "logout_button"  type="submit"> <a href="/logout"> Logout</a></button>
+
+</body>
+</html>

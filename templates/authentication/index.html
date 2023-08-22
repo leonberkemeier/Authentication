@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        background-color:#7fe1cf !important;
+            margin: 0px ;
+            
+    }
+
+    h3 {
+        text-align:center;
+        font-size:30px;
+        color:white;
+        
+    }
+    h2 {
+        text-align:center;
+        font-size: 15px;
+        color:black;
+        
+    }
+    .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    }
+
+    .one {
+    order: 0;
+    flex: 1 0 auto;
+    align-self: center;
+    width:100%;
+    
+    text-align:center;
+    }
+
+    .xoxo {
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif; 
+    align-items: center;
+    background: #7abecc;
+    border-radius:20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+    
+
+    }
+    </style>
+</head>
+<body>
+    
+    <h3>Welcome to THE LIST</h3>
+    <br>
+    <h2>What do you want to DO ?</h2>
+    <br>
+
+    <div class ="one">
+        <button class ="xoxo"  type="submit"> <a href="/register"> Register</a></button>
+        <br>
+        <button class ="xoxo"  type="submit"><a href="/login">LogIn</a></button>
+        <br>
+        <button class ="xoxo"  type="submit"><a href="/logout">LogOut</a></button>
+    </div>
+   
+</body>
+</html>
